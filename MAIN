@@ -1,0 +1,42 @@
+# Creating a .txt file with the description for the To-Do List GitHub repository
+
+repo_description = """
+📝 To-Do List Application
+
+A simple, command-line based To-Do List Application built in Python, designed to help users manage and organize their tasks efficiently. This project was developed as part of the Codsoft Python Internship.
+
+Features:
+- Add Task: Easily add new tasks to the list
+- View Tasks: Display all tasks with their completion status (Done/Not Done)
+- Mark Task as Completed: Mark specific tasks as finished
+- Update Task: Edit existing tasks or mark them as complete
+- Delete Task: Remove tasks from the list
+- Clear All Tasks: Reset and clear the entire task list
+- Exit: Safely exit the application
+
+Technologies Used:
+- Python (Core Language)
+
+How to Run:
+1. Clone the repository:
+   git clone https://github.com/your-username/to-do-list-app.git
+
+2. Navigate to the project directory:
+   cd to-do-list-app
+
+3. Run the application:
+   python todo.py
+
+Contributing:
+Feel free to fork the repository and make your own modifications. Pull requests are welcome! For any major changes, please open an issue first to discuss what you would like to change.
+
+License:
+This project is open-source and available under the MIT License.
+"""
+
+# Save the content to a .txt file
+file_path = "/mnt/data/to_do_list_github_repo_description.txt"
+with open(file_path, "w") as file:
+    file.write(repo_description)
+
+file_path
